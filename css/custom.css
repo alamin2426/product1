@@ -1,0 +1,16 @@
+/* @media only screen and (max-width:576px){
+    .navbar-nav{
+        justify-content: center!important;
+        text-align: center;
+    }
+} */
+.carousel-indicators [data-bs-target]{
+    height: 6px;
+    background-color: black;
+    border: 0px;
+    border-radius: 6px;
+}
+.carousel-indicators .active{
+    opacity: 1;
+    width: 50px;
+}
